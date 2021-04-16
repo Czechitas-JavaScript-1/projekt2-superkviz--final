@@ -1,0 +1,1 @@
+Jedná se o modelový průchod hrou. Můžeš se vytvořit vlastní otázky a správné odpovědi na ně. :-)
