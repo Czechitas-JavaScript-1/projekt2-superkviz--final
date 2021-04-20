@@ -102,7 +102,7 @@ function zobrazVyhodnoceni() {
 		hodnoceni.appendChild(moje);
 
 		let spravne = document.createElement('p');
-		if (mojeOdpovedi[i] === otazky[i].spravna) {
+		if (parseInt(mojeOdpovedi[i]) === otazky[i].spravna) {
 			pocetSpravnych++;
 			spravne.textContent = 'To je SPRÁVNĚ.';
 		} else {
